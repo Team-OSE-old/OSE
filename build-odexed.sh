@@ -103,7 +103,7 @@ mka bacon WITH_DEXPREOPT=true
 echo -e ""
 
 # squisher
-./vendor/cm/tools/squisher
+./vendor/ose/tools/squisher
 
 # cleanup unused built
 rm -f out/target/product/*/OSE-*.*
