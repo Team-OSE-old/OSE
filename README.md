@@ -33,7 +33,7 @@ example:
 
 You can also use a second parameter for syncing sources before building
 
-    ./build-pac.sh -device- true
+    ./build-ose.sh -device- true
 
 
 There are also a few parameters that you can use together with before mentioned:
