@@ -19,7 +19,7 @@ To get this done faster, you can add a specified number of threads to have it do
 Building OSE-ROM
 ------------------------
 
-For building P.A.C you must cd to the working directory.
+For building OSE you must cd to the working directory.
 Make sure you have your device tree sources, located on
 
     cd device/-manufacturer-/-device-
