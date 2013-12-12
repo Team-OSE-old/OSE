@@ -44,4 +44,6 @@ mv out/target/product/d802/OSE-4.4.2-*.zip /home/www/devs/teamose/OSE/Nightlies/
 export CM_BUILDTYPE=NIGHTLY;
 ./build-ose.sh -o3 -j10 hammerhead;
 mv out/target/product/hammerhead/OSE-4.4.2-*.zip /home/www/devs/teamose/OSE/Nightlies/hammerhead;
-
+export CM_BUILDTYPE=NIGHTLY;
+./build-ose.sh -o3 -j10 mako;
+mv out/target/product/mako/OSE-4.4.2-*.zip /home/www/devs/teamose/OSE/Nightlies/mako;
