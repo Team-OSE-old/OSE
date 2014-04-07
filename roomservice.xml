@@ -6,6 +6,9 @@
   <project name="android_device_samsung_msm8960-common" path="device/samsung/msm8960-common" remote="cm" revision="cm-11.0" />
   <project name="android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="cm" revision="cm-11.0" />
   <project name="android_hardware_samsung" path="hardware/samsung" remote="cm" revision="cm-11.0" />
+  <project name="android_hardware_qcom_audio-caf" path="hardware/qcom/audio-caf" remote="cm" revision="cm-11.0" />
+  <project name="android_hardware_qcom_display-caf" path="hardware/qcom/display-caf" remote="cm" revision="cm-11.0" />
+  <project name="android_hardware_qcom_media-caf" path="hardware/qcom/media-caf" remote="cm" revision="cm-11.0" />
   <project name="android_kernel_samsung_d2" path="kernel/samsung/d2" remote="cm" revision="cm-11.0" />
   <project name="proprietary_vendor_samsung" path="vendor/samsung" remote="tm" revision="cm-11.0" />
   <project name="Team-OSE/device_lge_d800" path="device/lge/d800" remote="gh" revision="ose" />
@@ -25,6 +28,8 @@
   <project name="android_device_motorola_qcom-common" path="device/motorola/qcom-common" remote="cm" revision="cm-11.0" />
   <project name="android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="cm" revision="cm-11.0" />
   <project name="android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="cm" revision="cm-11.0" />
+  <project name="android_hardware_qcom_display-caf-new" path="hardware/qcom/display-caf-new" remote="cm" revision="cm-11.0" />
+  <project name="android_hardware_qcom_media-caf-new" path="hardware/qcom/media-caf-new" remote="cm" revision="cm-11.0" />
   <project name="proprietary_vendor_motorola" path="vendor/motorola" remote="tm" revision="cm-11.0" />
   <project name="Team-OSE/device_asus_flo" path="device/asus/flo" remote="gh" revision="ose" />
   <project name="android_kernel_google_msm" path="kernel/google/msm" remote="cm" revision="cm-11.0" />
