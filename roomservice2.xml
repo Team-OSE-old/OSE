@@ -23,7 +23,6 @@
   <project name="Team-OSE/device_samsung_toroplus" path="device/samsung/toroplus" remote="gh" revision="ose" />
 
   <!-- Other Device Repos -->
-  <project name="android_device_lge_g2-common" path="device/lge/g2-common" remote="cm" revision="cm-11.0" />
   <project name="android_device_motorola_qcom-common" path="device/motorola/qcom-common" remote="cm" revision="cm-11.0" />
   <project name="android_device_samsung_celox-common" path="device/samsung/celox-common" remote="cm" revision="cm-11.0" />
   <project name="android_device_samsung_msm8660-common" path="device/samsung/msm8660-common" remote="cm" revision="cm-11.0" />
@@ -33,6 +32,7 @@
   <project name="android_device_samsung_smdk4412-qcom-common" path="device/samsung/smdk4412-qcom-common" remote="cm" revision="cm-11.0" />
   <project name="android_device_samsung_tuna" path="device/samsung/tuna" remote="ls" revision="kitkat" />
   <project name="android_device_qcom_common" path="device/qcom/common" remote="cm" revision="cm-11.0" />
+  <project name="device_lge_g2-common" path="device/lge/g2-common" remote="slim" revision="kk4.4" />
   <project name="sileshn/android_device_samsung_melius-common" path="device/samsung/melius-common" remote="gh" revision="cm-11.0" />
   <project name="TEAM-Gummy/android_device_motorola_omap4-common" path="device/motorola/omap4-common" remote="gh" revision="kk4.4" />
 
