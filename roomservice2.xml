@@ -1,59 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--Please do not manually edit this file-->
 <manifest>
-  <project name="Team-OSE/device_htc_m8vzw" path="device/htc/m8vzw" remote="gh" revision="ose" />
-  <project name="htc-msm8974/android_kernel_htc_msm8974" path="kernel/htc/msm8974" remote="gh" revision="cm-11.0" />
+  <!-- OSE Devices -->
   <project name="device_htc_msm8974-common" path="device/htc/msm8974-common" remote="ose" revision="ose" />
-  <project name="htc-msm8974/android_vendor_htc_m8" path="vendor/htc/m8" remote="gh" revision="cm-11.0" />
-  <project name="android_device_qcom_common" path="device/qcom/common" remote="cm" revision="cm-11.0" />
-  <project name="Team-OSE/device_motorola_umts_spyder" path="device/motorola/umts_spyder" remote="gh" revision="ose" />
-  <project name="TEAM-Gummy/android_device_motorola_omap4-common" path="device/motorola/omap4-common" remote="gh" revision="kk4.4" />
-  <project name="android_kernel_motorola_omap4-common" path="kernel/motorola/omap4-common" remote="cm" revision="cm-11.0" />
-  <project name="proprietary_vendor_motorola" path="vendor/motorola" remote="tm" revision="cm-11.0" />
-  <project name="Team-OSE/device_samsung_skyrocket" path="device/samsung/skyrocket" remote="gh" revision="ose" />
-  <project name="android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="cm" revision="cm-11.0" />
-  <project name="android_device_samsung_msm8660-common" path="device/samsung/msm8660-common" remote="cm" revision="cm-11.0" />
-  <project name="android_device_samsung_celox-common" path="device/samsung/celox-common" remote="cm" revision="cm-11.0" />
-  <project name="android_kernel_samsung_msm8660-common" path="kernel/samsung/msm8660-common" remote="cm" revision="cm-11.0" />
-  <project name="Pinky-Inky-and-Clyde/proprietary_vendor_samsung" path="vendor/samsung" remote="gh" revision="cm-11.0" />
+  <project name="Team-OSE/device_asus_grouper" path="device/asus/grouper" remote="gh" revision="ose" />
+  <project name="Team-OSE/device_asus_tilapia" path="device/asus/tilapia" remote="gh" revision="ose" />
+  <project name="Team-OSE/device_htc_m8vzw" path="device/htc/m8vzw" remote="gh" revision="ose" />
+  <project name="Team-OSE/device_lge_mako" path="device/lge/mako" remote="gh" revision="ose" />
+  <project name="Team-OSE/device_lge_vs980" path="device/lge/vs980" remote="gh" revision="ose" />
+  <project name="Team-OSE/device_motorola_moto_msm8960" path="device/motorola/moto_msm8960" remote="gh" revision="ose" />
   <project name="Team-OSE/device_motorola_moto_msm8960dt" path="device/motorola/moto_msm8960dt" remote="gh" revision="ose" />
-  <project name="android_device_motorola_qcom-common" path="device/motorola/qcom-common" remote="cm" revision="cm-11.0" />
-  <project name="kernel_motorola_msm8960dt-common" path="kernel/motorola/msm8960dt-common" remote="ose" revision="ose" />
-  <project name="Team-OSE/device_samsung_t0lteatt" path="device/samsung/t0lteatt" remote="gh" revision="ose" />
+  <project name="Team-OSE/device_motorola_umts_spyder" path="device/motorola/umts_spyder" remote="gh" revision="ose" />
+  <project name="Team-OSE/device_samsung_maguro" path="device/samsung/maguro" remote="gh" revision="ose" />
+  <project name="Team-OSE/device_samsung_manta" path="device/samsung/manta" remote="gh" revision="ose" />
+  <project name="Team-OSE/device_samsung_meliusltexx" path="device/samsung/meliusltexx" remote="gh" revision="ose" />
+  <project name="Team-OSE/device_samsung_skyrocket" path="device/samsung/skyrocket" remote="gh" revision="ose" />
   <project name="Team-OSE/device_samsung_t0lte" path="device/samsung/t0lte" remote="gh" revision="ose" />
+  <project name="Team-OSE/device_samsung_t0lteatt" path="device/samsung/t0lteatt" remote="gh" revision="ose" />
+  <project name="Team-OSE/device_samsung_t0ltetmo" path="device/samsung/t0ltetmo" remote="gh" revision="ose" />
+  <project name="Team-OSE/device_samsung_toro" path="device/samsung/toro" remote="gh" revision="ose" />
+  <project name="Team-OSE/device_samsung_toroplus" path="device/samsung/toroplus" remote="gh" revision="ose" />
+
+  <!-- Other Device Repos -->
+  <project name="android_device_lge_g2-common" path="device/lge/g2-common" remote="cm" revision="cm-11.0" />
+  <project name="android_device_motorola_qcom-common" path="device/motorola/qcom-common" remote="cm" revision="cm-11.0" />
+  <project name="android_device_samsung_celox-common" path="device/samsung/celox-common" remote="cm" revision="cm-11.0" />
+  <project name="android_device_samsung_msm8660-common" path="device/samsung/msm8660-common" remote="cm" revision="cm-11.0" />
+  <project name="android_device_samsung_msm8930-common" path="device/samsung/msm8930-common" remote="cm" revision="cm-11.0" />
+  <project name="android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="cm" revision="cm-11.0" />
   <project name="android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="cm" revision="cm-11.0" />
   <project name="android_device_samsung_smdk4412-qcom-common" path="device/samsung/smdk4412-qcom-common" remote="cm" revision="cm-11.0" />
-  <project name="android_hardware_samsung" path="hardware/samsung" remote="cm" revision="cm-11.0" />
-  <project name="android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="cm" revision="cm-11.0" />
-  <project name="Team-OSE/device_samsung_toroplus" path="device/samsung/toroplus" remote="gh" revision="ose" />
-  <project name="android_kernel_samsung_tuna" path="kernel/samsung/tuna" remote="cm" revision="cm-11.0" />
   <project name="android_device_samsung_tuna" path="device/samsung/tuna" remote="ls" revision="kitkat" />
-  <project name="Team-OSE/device_samsung_meliusltexx" path="device/samsung/meliusltexx" remote="gh" revision="ose" />
-  <project name="android_system_qcom" path="system/qcom" remote="cm" revision="cm-11.0" />
+  <project name="android_device_qcom_common" path="device/qcom/common" remote="cm" revision="cm-11.0" />
   <project name="sileshn/android_device_samsung_melius-common" path="device/samsung/melius-common" remote="gh" revision="cm-11.0" />
-  <project name="android_device_samsung_msm8930-common" path="device/samsung/msm8930-common" remote="cm" revision="cm-11.0" />
-  <project name="android_kernel_samsung_msm8930-common" path="kernel/samsung/msm8930-common" remote="cm" revision="cm-11.0" />
-  <project name="Team-OSE/device_samsung_t0ltetmo" path="device/samsung/t0ltetmo" remote="gh" revision="ose" />
-  <project name="Team-OSE/device_samsung_manta" path="device/samsung/manta" remote="gh" revision="ose" />
-  <project name="Team-OSE/device_samsung_maguro" path="device/samsung/maguro" remote="gh" revision="ose" />
-  <project name="Team-OSE/device_motorola_moto_msm8960" path="device/motorola/moto_msm8960" remote="gh" revision="ose" />
-  <project name="Team-OSE/device_lge_vs980" path="device/lge/vs980" remote="gh" revision="ose" />
-  <project name="Team-OSE/device_asus_tilapia" path="device/asus/tilapia" remote="gh" revision="ose" />
-  <project name="Team-OSE/device_samsung_toro" path="device/samsung/toro" remote="gh" revision="ose" />
-  <project name="Team-OSE/device_lge_mako" path="device/lge/mako" remote="gh" revision="ose" />
-  <project name="android_kernel_samsung_manta" path="kernel/samsung/manta" remote="cm" revision="cm-11.0" />
-  <project name="android_kernel_motorola_msm8960-common" path="kernel/motorola/msm8960-common" remote="cm" revision="cm-11.0" />
-  <project name="android_device_lge_g2-common" path="device/lge/g2-common" remote="cm" revision="cm-11.0" />
-  <project name="android_kernel_lge_msm8974" path="kernel/lge/msm8974" remote="cm" revision="cm-11.0" />
-  <project name="proprietary_vendor_lge" path="vendor/lge" remote="tm" revision="cm-11.0" />
-  <project name="Team-OSE/device_asus_grouper" path="device/asus/grouper" remote="gh" revision="ose" />
+  <project name="TEAM-Gummy/android_device_motorola_omap4-common" path="device/motorola/omap4-common" remote="gh" revision="kk4.4" />
+
+  <!-- Kernels -->
   <project name="android_kernel_asus_grouper" path="kernel/asus/grouper" remote="cm" revision="cm-11.0" />
+  <project name="android_kernel_lge_msm8974" path="kernel/lge/msm8974" remote="cm" revision="cm-11.0" />
+  <project name="android_kernel_motorola_msm8960-common" path="kernel/motorola/msm8960-common" remote="cm" revision="cm-11.0" />
+  <project name="android_kernel_motorola_omap4-common" path="kernel/motorola/omap4-common" remote="cm" revision="cm-11.0" />
+  <project name="android_kernel_samsung_manta" path="kernel/samsung/manta" remote="cm" revision="cm-11.0" />
+  <project name="android_kernel_samsung_msm8660-common" path="kernel/samsung/msm8660-common" remote="cm" revision="cm-11.0" />
+  <project name="android_kernel_samsung_msm8930-common" path="kernel/samsung/msm8930-common" remote="cm" revision="cm-11.0" />
+  <project name="android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="cm" revision="cm-11.0" />
+  <project name="android_kernel_samsung_tuna" path="kernel/samsung/tuna" remote="cm" revision="cm-11.0" />
+  <project name="htc-msm8974/android_kernel_htc_msm8974" path="kernel/htc/msm8974" remote="gh" revision="cm-11.0" />
+  <project name="kernel_lge_mako" path="kernel/lge/mako" remote="slim" revision="kk4.4" />
+  <project name="kernel_motorola_msm8960dt-common" path="kernel/motorola/msm8960dt-common" remote="ose" revision="ose" />
+
+  <!-- Vendor Repos -->
+  <project name="htc-msm8974/android_vendor_htc_m8" path="vendor/htc/m8" remote="gh" revision="cm-11.0" />
+  <project name="Pinky-Inky-and-Clyde/proprietary_vendor_samsung" path="vendor/samsung" remote="gh" revision="cm-11.0" />
   <project name="proprietary_vendor_asus" path="vendor/asus" remote="tm" revision="cm-11.0" />
   <project name="proprietary_vendor_broadcom" path="vendor/broadcom" remote="tm" revision="cm-11.0" />
   <project name="proprietary_vendor_elan" path="vendor/elan" remote="tm" revision="cm-11.0" />
   <project name="proprietary_vendor_invensense" path="vendor/invensense" remote="tm" revision="cm-11.0" />
+  <project name="proprietary_vendor_lge" path="vendor/lge" remote="tm" revision="cm-11.0" />
+  <project name="proprietary_vendor_motorola" path="vendor/motorola" remote="tm" revision="cm-11.0" />
   <project name="proprietary_vendor_nvidia" path="vendor/nvidia" remote="tm" revision="cm-11.0" />
   <project name="proprietary_vendor_nxp" path="vendor/nxp" remote="tm" revision="cm-11.0" />
   <project name="proprietary_vendor_widevine" path="vendor/widevine" remote="tm" revision="cm-11.0" />
-  <project name="kernel_lge_mako" path="kernel/lge/mako" remote="slim" revision="kk4.4" />
+
+  <!-- Extras -->
+  <project name="android_hardware_samsung" path="hardware/samsung" remote="cm" revision="cm-11.0" />
+  <project name="android_system_qcom" path="system/qcom" remote="cm" revision="cm-11.0" />
+
 </manifest>
