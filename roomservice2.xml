@@ -10,6 +10,7 @@
   <project name="Team-OSE/device_lge_vs980" path="device/lge/vs980" remote="gh" revision="ose" />
   <project name="Team-OSE/device_motorola_moto_msm8960" path="device/motorola/moto_msm8960" remote="gh" revision="ose" />
   <project name="Team-OSE/device_motorola_moto_msm8960dt" path="device/motorola/moto_msm8960dt" remote="gh" revision="ose" />
+  <project name="Team-OSE/device_motorola_spyder" path="device/motorola/spyder" remote="gh" revision="ose" />
   <project name="Team-OSE/device_motorola_umts_spyder" path="device/motorola/umts_spyder" remote="gh" revision="ose" />
   <project name="Team-OSE/device_samsung_maguro" path="device/samsung/maguro" remote="gh" revision="ose" />
   <project name="Team-OSE/device_samsung_manta" path="device/samsung/manta" remote="gh" revision="ose" />
