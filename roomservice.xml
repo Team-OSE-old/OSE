@@ -26,7 +26,6 @@
   <!-- Other Device Repos -->
   <project name="android_device_htc_m7-common" path="device/htc/m7-common" remote="cm" revision="cm-11.0" />
   <project name="android_device_htc_s4-common" path="device/htc/s4-common" remote="cm" revision="cm-11.0" />
-  <project name="android_device_lge_g2-common" path="device/lge/g2-common" remote="cm" revision="cm-11.0" />
   <project name="android_device_motorola_msm8226-common" path="device/motorola/msm8226-common" remote="cm" revision="cm-11.0" />
   <project name="android_kernel_motorola_msm8226" path="kernel/motorola/msm8226" remote="cm" revision="cm-11.0" />
   <project name="android_device_motorola_qcom-common" path="device/motorola/qcom-common" remote="cm" revision="cm-11.0" />
@@ -36,6 +35,7 @@
   <project name="android_device_samsung_msm8960-common" path="device/samsung/msm8960-common" remote="cm" revision="cm-11.0" />
   <project name="android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="cm" revision="cm-11.0" />
   <project name="device_htc_msm8960-common" path="device/htc/msm8960-common" remote="slim" revision="kk4.4" />
+  <project name="device_lge_g2-common" path="device/lge/g2-common" remote="slim" revision="kk4.4" />
 
   <!-- Kernel Repos -->
   <project name="Arc-Team/android_kernel_htc_evita" path="kernel/htc/evita" remote="gh" revision="cm-11.0" />
